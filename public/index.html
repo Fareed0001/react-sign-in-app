@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capsul Sign-in</title>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images\favicon.png" type="image/x-icon">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- GOOGLE FONT  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-5 first-col">
+                <p class="first-header">Social media shared today, tomorrow <br> or by location</p>
+                <img class="first-img" src="images\phone.png" alt="phone-img">
+                <img class="first-img0" src="images\ellipse.png" alt="ellipse-img">
+            </div>
+            <div class="col-7 second-col">
+                <img class="logo-img" src="images\logo.png" alt="logo">
+                <p class="second-header">Create account <span class="second-sub-header">For business, band or
+                        celebrity</span></p>
+
+                <!-- FORM  -->
+                <form action="" method="post" class="row g-2 needs-validation form" validate>
+                    <div class="col-md-6">
+                        <label for="validationCustom01" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom02" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="validationCustom03" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="date" class="form-label">Date</label>
+                        <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" require>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="confirmPassword" class="form-label">Confirm password</label>
+                        <input type="password" class="form-control" id="confirmPassword" require>
+                    </div>
+
+                    <div class="col-12">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Remember Me
+                        </label>
+                        <a class="forgot-password" href="">forgot password?</a>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                            <label class="form-check-label" for="invalidCheck">
+                                I agree to the <a class="terms-link" href="">terms</a> and <a class="terms-link"
+                                    href="">conditions</a>
+                            </label>
+                            <div class="invalid-feedback">
+                                You must agree before submitting.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BOTTON  -->
+                    <div class="col-md-6 d-grid">
+                        <button class="btn btn-primary login-button" type="submit">Create account</button>
+                    </div>
+                    <div class="col-md-6 d-grid">
+                        <button class="btn btn-dark login-button" type="button"><img class="google-g" src="images\google-G.png" alt=""> Sign-in with google</button>
+                    </div>
+                    <!-- BUTTON  -->
+
+                    <p class="no-account">Dont have an account? <a class="no-account-link" href="">Log in</a></p>
+                </form>
+                <!-- FORM  -->
+                <!-- DOWNLOAD BUTTONS -->
+                <div class="download-buttons">
+                    <button class="google-button"></button>
+                    <button class="apple-button"></button>
+                </div>
+                <!-- DOWNLOAD BUTTONS -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

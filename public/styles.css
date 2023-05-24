@@ -1,0 +1,122 @@
+.container {
+    margin: 2% auto;
+}
+
+/* FIRST COL START  */
+.col-5.first-col {
+    background: linear-gradient(324.93deg, #007AFF 0.74%, #0F70DA 100%);
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 5%;
+}
+
+.first-header {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: .1rem;
+    color: #FFFFFF;
+}
+
+.first-img {
+    width: 80%;
+    padding: 10% 0;
+}
+
+.first-img0 {
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+/* FIRST COL END  */
+
+/* SECOND COL START  */
+.col-7.second-col {
+    padding: 5% 0 5% 8%;
+}
+
+.logo-img {
+    width: 5rem;
+}
+
+.second-header {
+    margin: 4% auto 2%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.second-sub-header {
+    font-size: .8rem;
+    display: block;
+    font-weight: 400;
+}
+
+.form-label, .form-check-label, .forgot-password, .no-account {
+    font-size: .8rem;
+}
+
+.terms-link {
+    text-decoration: none;
+}
+
+.forgot-password {
+    float: right;
+    text-decoration: none;
+}
+
+.no-account {
+    text-align: center;
+}
+
+.no-account-link {
+    text-decoration: none;
+}
+
+/* BUTTON  */
+button:hover {
+    cursor: pointer;
+}
+
+.google-g {
+    width: 1.2rem;
+    margin: 0 .2rem .3rem 0;
+}
+
+.btn.login-button {
+    font-size: .8rem;
+}
+
+.download-buttons {
+    margin-top: 1rem;
+}
+
+.google-button {
+    background-image: url("images/google-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.apple-button {
+    background-image: url("images/apple-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 4px;
+    margin-left: .3rem;
+}
+
+
+
+
+
+/* BUTTON  */
+/* SECOND COL END  */

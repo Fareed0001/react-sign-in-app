@@ -1,95 +1,80 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import "../public/styles.css";
 
-export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+function home() {
+  return <div className="container">
+    <div className="row">
+      <div className="col-5 first-col">
+        <p className="first-header">Social media shared today, tomorrow <br /> or by location</p>
+        <img className="first-img" src={"../images/phone.png"} alt="phone-img" />
+        <img className="first-img0" src={"../images/ellipse.png"} alt="ellipse-img" />
+      </div>
+      <div className="col-7 second-col">
+        <img className="logo-img" src="images\logo.png" alt="logo" />
+        <p className="second-header">Create account <span className="second-sub-header">htmlFor business, band or
+          celebrity</span></p>
+
+        <form action="" method="post" className="row g-2 needs-validation form">
+          <div className="col-md-6">
+            <label htmlFor="validationCustom01" className="form-label">First name</label>
+            <input type="text" className="form-control" id="validationCustom01" required></input>
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="validationCustom02" className="form-label">Last name</label>
+            <input type="text" className="form-control" id="validationCustom02" required></input>
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="validationCustom03" className="form-label">Email</label>
+            <input type="email" className="form-control" id="validationCustom03" required></input>
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="date" className="form-label">Date</label>
+            <input type="date" className="form-control" id="date" required></input>
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="inputPassword" className="form-label">Password</label>
+            <input type="password" className="form-control" id="inputPassword" required></input>
+          </div>
+          <div className="col-md-6">
+            <label htmlFor="confirmPassword" className="form-label">Confirm password</label>
+            <input type="password" className="form-control" id="confirmPassword" required></input>
+          </div>
+
+          <div className="col-12">
+            <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault"></input>
+            <label className="form-check-label" htmlFor="flexCheckDefault">
+              Remember Me
+            </label>
+            <a className="forgot-password" href="">forgot password?</a>
+          </div>
+
+          <div className="col-12">
+            <div className="form-check">
+              <input className="form-check-input" type="checkbox" value="" id="invalidCheck" required></input>
+              <label className="form-check-label" htmlFor="invalidCheck">
+                I agree to the <a className="terms-link" href="">terms</a> and <a className="terms-link"
+                  href="">conditions</a>
+              </label>
+              <div className="invalid-feedback">
+                You must agree before submitting.
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 d-grid">
+            <button className="btn btn-primary login-button" type="submit">Create account</button>
+          </div>
+          <div className="col-md-6 d-grid">
+            <button className="btn btn-dark login-button" type="button"><img className="google-g" src="images\google-G.png" alt="" /> Sign-in with google</button>
+          </div>
+          <p className="no-account">Dont have an account? <a className="no-account-link" href="">Log in</a></p>
+        </form>
+        <div className="download-buttons">
+          <button className="google-button"></button>
+          <button className="apple-button"></button>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
 }
+
+export default home;
