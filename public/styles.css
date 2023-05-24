@@ -1,3 +1,45 @@
+/* BUTTON  */
+button:hover {
+    cursor: pointer;
+}
+
+.google-g {
+    width: 1.2rem;
+    margin: 0 .2rem .3rem 0;
+}
+
+.btn.login-button {
+    font-size: .8rem;
+}
+
+.download-buttons {
+    margin-top: 1rem;
+}
+
+.google-button {
+    background-image: url("images/google-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.apple-button {
+    background-image: url("images/apple-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 4px;
+    margin-left: .3rem;
+}
+/* BUTTON  */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
 .container {
     margin: 2% auto;
 }
@@ -74,49 +116,4 @@
 .no-account-link {
     text-decoration: none;
 }
-
-/* BUTTON  */
-button:hover {
-    cursor: pointer;
-}
-
-.google-g {
-    width: 1.2rem;
-    margin: 0 .2rem .3rem 0;
-}
-
-.btn.login-button {
-    font-size: .8rem;
-}
-
-.download-buttons {
-    margin-top: 1rem;
-}
-
-.google-button {
-    background-image: url("images/google-button.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 7rem;
-    height: 2rem;
-    border-radius: 4px;
-}
-
-.apple-button {
-    background-image: url("images/apple-button.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 7rem;
-    height: 2rem;
-    border-radius: 4px;
-    margin-left: .3rem;
-}
-
-
-
-
-
-/* BUTTON  */
 /* SECOND COL END  */

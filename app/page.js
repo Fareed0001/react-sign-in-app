@@ -1,5 +1,6 @@
 import "../public/styles.css";
 
+
 function home() {
   return <div className="container">
     <div className="row">
@@ -10,7 +11,7 @@ function home() {
       </div>
       <div className="col-7 second-col">
         <img className="logo-img" src="images\logo.png" alt="logo" />
-        <p className="second-header">Create account <span className="second-sub-header">htmlFor business, band or
+        <p className="second-header">Create account <span className="second-sub-header">For business, band or
           celebrity</span></p>
 
         <form action="" method="post" className="row g-2 needs-validation form">
